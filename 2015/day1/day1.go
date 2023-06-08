@@ -9,7 +9,7 @@ func main() {
 	var file, showPosition, err = loadFile()
 
 	if err != nil {
-		fmt.Println("Não foi possível ENCONTRAR o arquivo!")
+		fmt.Println("File not found!")
 		os.Exit(1)
 	}
 
